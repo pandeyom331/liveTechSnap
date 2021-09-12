@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/liveTechSnap/static/css/main.fb81a221.chunk.css",
+    "main.js": "/liveTechSnap/static/js/main.12e6d941.chunk.js",
+    "main.js.map": "/liveTechSnap/static/js/main.12e6d941.chunk.js.map",
+    "runtime-main.js": "/liveTechSnap/static/js/runtime-main.acb19278.js",
+    "runtime-main.js.map": "/liveTechSnap/static/js/runtime-main.acb19278.js.map",
+    "static/css/2.f2512455.chunk.css": "/liveTechSnap/static/css/2.f2512455.chunk.css",
+    "static/js/2.da343fd2.chunk.js": "/liveTechSnap/static/js/2.da343fd2.chunk.js",
+    "static/js/2.da343fd2.chunk.js.map": "/liveTechSnap/static/js/2.da343fd2.chunk.js.map",
+    "index.html": "/liveTechSnap/index.html",
+    "static/css/2.f2512455.chunk.css.map": "/liveTechSnap/static/css/2.f2512455.chunk.css.map",
+    "static/css/main.fb81a221.chunk.css.map": "/liveTechSnap/static/css/main.fb81a221.chunk.css.map",
+    "static/js/2.da343fd2.chunk.js.LICENSE.txt": "/liveTechSnap/static/js/2.da343fd2.chunk.js.LICENSE.txt",
+    "static/media/logo1.eb63ebba.png": "/liveTechSnap/static/media/logo1.eb63ebba.png",
+    "static/media/video1.7d1ea6a9.mp4": "/liveTechSnap/static/media/video1.7d1ea6a9.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.acb19278.js",
+    "static/css/2.f2512455.chunk.css",
+    "static/js/2.da343fd2.chunk.js",
+    "static/css/main.fb81a221.chunk.css",
+    "static/js/main.12e6d941.chunk.js"
+  ]
+}
