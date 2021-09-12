@@ -1,0 +1,161 @@
+.Main{
+    min-height: 692px;
+    z-index: 0;
+}
+
+.Main:before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background:linear-gradient(
+     180deg, rgba(0,0,0,0.2) 0%,
+     rgba(0,0,0,0.6) 100%),
+    linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100%);
+    z-index:1;
+  }
+
+.Main .FormWrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.FormWrap .Icon{
+  text-decoration: none;
+  width: 22%;
+  position: relative;
+  z-index: 1;
+}
+
+.FormWrap .FormContent{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.FormContent .Form{
+    background-color: #4e5050;
+    z-index: 1;
+    display: grid;
+    margin: 60px auto;
+    padding: 40px 50px;
+    border-radius:4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
+}
+
+.Form .FormH1{
+    color: #fff;
+    font-size: 36px;
+    font-family: Garamond, serif;
+    text-align: center;
+}
+
+.Form .input-box {
+    margin: 10px auto;
+    padding-right: 50px;
+    width: 80%;
+    position: relative;
+    box-shadow: 0 8px 10px -10px rgb(0,0,0);
+}
+
+.Form .input-box input {
+    height: 40px;
+    border: none;
+    background: #efefef;
+    padding-left: 60px;
+}
+
+.Form .input-box span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 42px;
+    width: 40px;
+    background: linear-gradient(to right, #810c68, #1b1b1b);
+}
+
+.Form .input-box .fas {
+    padding: 12px;
+    color: #fff;
+}
+
+.FormButton {
+    width: 100%;
+    height: 40px;
+    margin: 10px auto;
+    display: block;
+    color: #fff;
+    border: 0;
+    font-size: 16px;
+    outline: none;
+    background: linear-gradient(to right, #810c68, #1b1b1b);
+    box-shadow: 0 8px 10px -10px rgb(0,0,0);
+    cursor: pointer;
+}
+.Main .fa-sign-in-alt {
+    margin-right: 10px;
+}
+
+.Main .FormButton:hover{
+    background: #810c68;
+
+}
+
+.Main .user-icon{
+    width: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+}
+
+.Main p{
+    color: #fff;
+}
+
+.Main .HeroBg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.Main .VideoBg
+{
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    background: #232a34;
+}
+
+.Main .WelcomeRoute
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+    .Main .FormWrap
+    {
+        height: 80%;
+    }
+    .FormWrap .FormContent{
+        padding: 10px;
+    }
+    .FormWrap .Icon{
+        margin-left: 16px;
+        margin-top: 8px;
+       }
+    .FormContent .Form{
+        padding: 32px 32px;
+    }
+}
